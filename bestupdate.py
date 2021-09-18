@@ -100,19 +100,19 @@ def main():
 
     print("")
 
-    print("\033[0;97m( Cloning Main Menu )").center(50)
+    print("\033[0;92m( Cloning Main Menu )").center(50)
 
     print("")
 
-    print("\033[1;92m(1)\033[1;91m  \033[1;93mClone Public ID (Fast)")
+    print("\033[1;92m(1)\033[1;91m  \033[1;92mClone Public ID (Fast)")
 
     print("")
 
-    print("\033[1;97m(2)\033[1;91m  \033[1;93mOwner Info")
+    print("\033[1;97m(2)\033[1;91m  \033[1;92mOwner Info")
 
     print("")
 
-    print("\033[1;97m(3)\033[1;91m  \033[1;93mlogout tool")
+    print("\033[1;97m(3)\033[1;91m  \033[1;92mlogout tool")
 
     print("")
 
@@ -156,15 +156,15 @@ def login():
 
     print("")
 
-    print("\033[1;92m(1)\033[1;92m <->\033[1;93mLogin Using Token") 
+    print("\033[1;92m(1)\033[1;92m <-> \033[1;92mLogin Using Token") 
 
     print("")
 
-    print("\033[1;97m(2)\033[1;91m <-> \033[1;93mLogin Using ID/Password")
+    print("\033[1;92m(2)\033[1;92m <-> \033[1;92mLogin Using ID/Password")
 
     print("")
 
-    print("\033[1;97m(3)\033[1;91m <-> \033[1;93mMain Menu Back")
+    print("\033[1;97m(3)\033[1;92m <-> \033[1;92mMain Menu Back")
 
     print("")
 
@@ -186,7 +186,7 @@ def login_select():
 
 	print("")
 
-        token = raw_input("-> Paste Token Here \033[0;93m")
+        token = raw_input("-> Paste Token Here \033[0;92m")
 
         token_s = open(".fb_token.txt","w")
 
@@ -258,7 +258,7 @@ def login_fb():
 
 	print("")
 
-        id = raw_input("\033[1;93m Email/ID/Number :\033[1;97m ")
+        id = raw_input("\033[1;92m Email/ID/Number :\033[1;92m ")
 
         id1 = id.replace(' ','')
 
@@ -266,7 +266,7 @@ def login_fb():
 
         uid = id2.replace(')','')
 
-        pwd = raw_input("\033[1;93m Password :\033[1;97m ")
+        pwd = raw_input("\033[1;92m Password :\033[1;92m ")
 
         print("")
 
@@ -372,19 +372,19 @@ def menu():
 
     print("")
 
-    print("\033[1;97m[1]\033[1;92m -> \033[1;93mCrack From Friendlist")
+    print("\033[1;92m[1]\033[1;92m -> \033[1;92mCrack From Friendlist")
 
     print("")
 
-    print("\033[1;97m[2]\033[1;92m -> \033[1;93mCrack From Public ID")
+    print("\033[1;92m[2]\033[1;92m -> \033[1;92mCrack From Public ID")
 
     print("")
 
-    print("\033[1;97m[3]\033[1;92m -> \033[1;93mCrack From Followers ID")
+    print("\033[1;92m[3]\033[1;92m -> \033[1;92mCrack From Followers ID")
 
     print("")
 
-    print("\033[1;97m[0]\033[1;91m -> \033[1;93mlogout")
+    print("\033[1;92m[0]\033[1;91m -> \033[1;92mlogout")
 
     print("")
 
@@ -430,7 +430,7 @@ def menu_select():
 
 		print("")
 
-		idt = raw_input("\033[1;92m-> Put Public ID/Username :\033[1;93m ")
+		idt = raw_input("\033[1;92m-> Put Public ID/Username :\033[1;92m ")
 
 		os.system("clear")
 
@@ -476,7 +476,7 @@ def menu_select():
 
 		print("")
 
-		idt = raw_input("\033[1;97m-> Put ID/Username :\033[1;93m ")
+		idt = raw_input("\033[1;92m-> Put ID/Username :\033[1;92m ")
 
 		os.system("clear")
 
@@ -534,7 +534,7 @@ def menu_select():
 
 	time.sleep(0.5)
 
-	print("\033[1;97m-> Please wait clone account will be appear here")
+	print("\033[1;92m-> Please wait clone account will be appear here")
 
 	print 47*("-")
 
@@ -570,7 +570,7 @@ def menu_select():
 
 		    	if "access_token" in d:
 
-		            print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass1+"\x1b[1;0m")
+		            print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass1+"\x1b[1;0m")
 
 		            ok=open("ok.txt","a")
 
@@ -604,7 +604,7 @@ def menu_select():
 
 		                if 'access_token' in d:
 
-		                    print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass2+"\x1b[1;0m")
+		                    print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass2+"\x1b[1;0m")
 
 		                    ok=open("ok.txt","a")
 
@@ -638,7 +638,7 @@ def menu_select():
 
 		                        if 'access_token' in d:
 
-		                            print(" \x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass3+"\x1b[1;0m")
+		                            print(" \x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass3+"\x1b[1;0m")
 
 		                            ok=open("ok.txt","a")
 
@@ -672,7 +672,7 @@ def menu_select():
 
 		                                if 'access_token' in d:
 
-		                                    print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass4+"\x1b[1;0m")
 
 		                                    ok=open("ok.txt","a")
 
@@ -706,7 +706,7 @@ def menu_select():
 
 		                                        if 'access_token' in d:
 
-		                                            print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass5+"\x1b[1;0m")
+		                                            print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass5+"\x1b[1;0m")
 
 		                                            ok=open("ok.txt","a")
 
@@ -740,7 +740,7 @@ def menu_select():
 
 		                                                if 'access_token' in d:
 
-		                                                    print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass6+"\x1b[1;0m")
 
 		                                                    ok=open("ok.txt","a")
 
@@ -774,7 +774,7 @@ def menu_select():
 
 		                                                        if 'access_token' in d:
 
-		                                                            print("\x1b[1;97m[JUSTNOW-OK] "+uid+" | "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;92m[JUSTNOW-OK] "+uid+" | "+pass7+"\x1b[1;0m")
 
 		                                                            ok=open("ok.txt","a")
 
