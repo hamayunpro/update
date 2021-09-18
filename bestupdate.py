@@ -787,9 +787,6 @@ def menu_select():
 		                                                            
 
 		                                                    
-		                                                            
-		                                                   
-		                                                                	                                                            ok.write(uid+" | "+pass9+"\n")
 
 		                                                            
 		except:
