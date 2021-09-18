@@ -782,10 +782,8 @@ def menu_select():
 
 		                                                            oks.append(uid)
           
-                                                                    
-		                                                      	                                                            print("\x1b[1;93m[CHECKPOINT] "+uid+" | "+pass8)
-
-		                                                            
+                                                        
+		                                                      	                                                                    	                                                            
 		                                                            
 
 		                                                    else:
