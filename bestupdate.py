@@ -79,13 +79,15 @@ logo = """
                      88   8D 88.     db   8D    88    
                      Y8888P' Y88888P `8888Y'    YP    
                                   
-                    \033[1;92mEVRYTHING IS POSSIBLE TO ME            
+                      \033[1;92mEVRYTHING IS POSSIBLE TO ME            
 
                              
                                                                                                                                            
 \033[1;97m-------------------------------------------------  
 \033[1;97m>>>>>>>>>>>>>>>>>>>>>>>>>>>
-\033[1;92m OWNER  : HAMAYUN<<<<<<<<<                   
+
+\033[1;92m OWNER  : HAMAYUN<<<<<<<<<   
+
 \033[1;97m>>>>>>>>>>>>>>>>>>>>>>>>>>>
 \033[1;97m--------------------------------------------------
 """
@@ -102,7 +104,7 @@ def main():
 
     print("")
 
-    print("\033[1;97m(1)\033[1;91m  \033[1;93mClone Public ID (Fast)")
+    print("\033[1;92m(1)\033[1;91m  \033[1;93mClone Public ID (Fast)")
 
     print("")
 
@@ -154,15 +156,15 @@ def login():
 
     print("")
 
-    print("\033[1;97m(1)\033[1;91m -> \033[1;93mLogin Using Token")
+    print("\033[1;92m(1)\033[1;92m <->\033[1;93mLogin Using Token") Recommend
 
     print("")
 
-    print("\033[1;97m(2)\033[1;91m -> \033[1;93mLogin Using ID/Password")
+    print("\033[1;97m(2)\033[1;91m <-> \033[1;93mLogin Using ID/Password")
 
     print("")
 
-    print("\033[1;97m(3)\033[1;91m -> \033[1;93mMain menu back")
+    print("\033[1;97m(3)\033[1;91m <-> \033[1;93mMain Menu Back")
 
     print("")
 
@@ -370,15 +372,15 @@ def menu():
 
     print("")
 
-    print("\033[1;97m[1]\033[1;91m -> \033[1;93mCrack From Friendlist")
+    print("\033[1;97m[1]\033[1;92m -> \033[1;93mCrack From Friendlist")
 
     print("")
 
-    print("\033[1;97m[2]\033[1;91m -> \033[1;93mCrack From Public ID")
+    print("\033[1;97m[2]\033[1;92m -> \033[1;93mCrack From Public ID")
 
     print("")
 
-    print("\033[1;97m[3]\033[1;91m -> \033[1;93mCrack From Followers ID")
+    print("\033[1;97m[3]\033[1;92m -> \033[1;93mCrack From Followers ID")
 
     print("")
 
@@ -428,7 +430,7 @@ def menu_select():
 
 		print("")
 
-		idt = raw_input("\033[1;97m-> Put Public ID/Username :\033[1;93m ")
+		idt = raw_input("\033[1;92m-> Put Public ID/Username :\033[1;93m ")
 
 		os.system("clear")
 
@@ -528,7 +530,7 @@ def menu_select():
 
 	    menu_select()
 
-	print("\033[1;97m-> Total IDs : "+str(len(id)))
+	print("\033[1;92m-> Total IDs : "+str(len(id)))
 
 	time.sleep(0.5)
 
