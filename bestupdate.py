@@ -156,7 +156,7 @@ def login():
 
     print("")
 
-    print("\033[1;92m(1)\033[1;92m <->\033[1;93mLogin Using Token") Recommend
+    print("\033[1;92m(1)\033[1;92m <->\033[1;93mLogin Using Token") 
 
     print("")
 
