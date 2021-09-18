@@ -108,11 +108,11 @@ def main():
 
     print("")
 
-    print("\033[1;97m(2)\033[1;92m  \033[1;92mOwner Info")
+    print("\033[1;92m(2)\033[1;92m  \033[1;92mOwner Info")
 
     print("")
 
-    print("\033[1;97m(3)\033[1;92m  \033[1;92mlogout tool")
+    print("\033[1;92m(3)\033[1;92m  \033[1;92mlogout tool")
 
     print("")
 
